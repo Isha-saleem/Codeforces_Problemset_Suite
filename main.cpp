@@ -13,13 +13,11 @@ const std::string YELLOW  = "\033[1;33m";
 const std::string BLUE    = "\033[1;34m";
 const std::string CYAN    = "\033[1;36m";
 
-// Clears the input buffer so inputs don't break the menu
 void clearInputBuffer() {
     std::cin.clear();
     std::cin.ignore(10000, '\n');
 }
 
-// Pauses the screen so the user can actually see the output before the menu shows up again
 void pauseForUser() {
     std::cout << YELLOW << "\nPress Enter to return to the menu..." << RESET;
     std::cin.ignore(10000, '\n'); 
