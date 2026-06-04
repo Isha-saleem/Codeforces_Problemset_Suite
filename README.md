@@ -19,3 +19,10 @@ Instead of just being a bunch of random `.cpp` files, this program runs an activ
 6. **XORwice** : Uses bitwise XOR math to minimize two numbers.
 7. **Grasshopper on the Line** : Simulates jump distances to cross a line safely.
 8. **Night at the Museum** : Calculates the fastest way to spin a wheel to spell a word.
+
+## How to Install and Run
+To run this project, you need a C++ compiler installed on your computer (like `g++`).
+Download main.cpp file on your computer. Open your terminal or command prompt and navigate to that folder.
+Run the following command to compile the `main.cpp` file into a runnable program:
+```bash
+g++ -std=c++17 main.cpp -o suite
