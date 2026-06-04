@@ -20,6 +20,9 @@ Instead of just being a bunch of random `.cpp` files, this program runs an activ
 7. **Grasshopper on the Line** : Simulates jump distances to cross a line safely.
 8. **Night at the Museum** : Calculates the fastest way to spin a wheel to spell a word.
 
+## Project Demo
+Watch the full video demo of the program running here: **[Watch on YouTube](YOUR_YOUTUBE_LINK_HERE)**
+
 ## How to Install and Run
 To run this project, you need a C++ compiler installed on your computer (like `g++`).
 Download main.cpp file on your computer. Open your terminal or command prompt and navigate to that folder.
