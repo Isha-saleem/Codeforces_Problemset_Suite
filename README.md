@@ -23,6 +23,9 @@ Instead of just being a bunch of random `.cpp` files, this program runs an activ
 ## Project Demo
 Watch the full video demo of the program running here: **[Watch on YouTube](YOUR_YOUTUBE_LINK_HERE)**
 
+## Repo Ranker
+[![RepoRanker](https://reporanker.com/badge/Isha-saleem/Codeforces_Problemset_Suite)](https://reporanker.com/repos/Isha-saleem/Codeforces_Problemset_Suite)
+
 ## How to Install and Run
 To run this project, you need a C++ compiler installed on your computer (like `g++`).
 Download main.cpp file on your computer. Open your terminal or command prompt and navigate to that folder.
