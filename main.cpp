@@ -21,7 +21,7 @@ void clearInputBuffer() {
 void pauseForUser() {
     std::cout << YELLOW << "\nPress Enter to return to the menu..." << RESET;
     std::cin.ignore(10000, '\n'); 
-    std::cin.get(); // Waits for user to press Enter
+    std::cin.get();
 }
 
 void runDivisibleNumbers() {
