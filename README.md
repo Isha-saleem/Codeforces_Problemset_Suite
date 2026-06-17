@@ -21,14 +21,11 @@ Instead of just being a bunch of random `.cpp` files, this program runs an activ
 8. **Night at the Museum** : Calculates the fastest way to spin a wheel to spell a word.
 
 ## Project Demo
-Watch the full video demo of the program running here: **[Watch on YouTube](YOUR_YOUTUBE_LINK_HERE)**
-
-## Repo Ranker
-[![RepoRanker](https://reporanker.com/badge/Isha-saleem/Codeforces_Problemset_Suite)](https://reporanker.com/repos/Isha-saleem/Codeforces_Problemset_Suite)
+Watch the full video demo of the program running here: **[Watch on YouTube](YOUR_YOUTUBE_LINK_HERE)** 
+OR
+Try it yourself: **[Github releases](https://github.com/Isha-saleem/Codeforces_Problemset_Suite/releases/tag/v1.0.0)**
 
 ## How to Install and Run
-To run this project, you need a C++ compiler installed on your computer (like `g++`).
-Download main.cpp file on your computer. Open your terminal or command prompt and navigate to that folder.
-Run the following command to compile the `main.cpp` file into a runnable program:
+To ensure the output executable can run smoothly on any machine without needing independent system libraries like `libstdc++` pre-installed, compile it using the static flag:
 ```bash
-g++ -std=c++17 main.cpp -o suite
+g++ -std=c++17 -static main.cpp -o suite
